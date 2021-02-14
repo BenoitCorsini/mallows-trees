@@ -1,6 +1,7 @@
 # Mallows trees
 
 This project computes and represents Mallows trees.
+
 It is meant to represent Mallows trees as defined in [The height of Mallows trees](https://arxiv.org/abs/2007.13728)
 
 ## Getting started
@@ -8,10 +9,12 @@ It is meant to represent Mallows trees as defined in [The height of Mallows tree
 ### Organization of the code
 
 `model.py` contains the two class: `MallowsPermutation` and `MallowsTree`. The class `MallowsTree` builds a binary search tree from an instance of the `MallowsPermutation` class.
+
 `plots.py` contains the class `TreePlots` which is used to represent instances of the `MallowsTree` class. It has three main functions:
 * `tree` which creates an image representing the tree.
 * `construction` which creates a gif representing the construction of the Mallows tree from its permutation.
 * `evolution` which creates a gif representing the evolution of a Mallows tree according to its parameter q.
+
 `main.py` used to run the algorithms.
 
 ### Running the code
