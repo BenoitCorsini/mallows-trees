@@ -38,7 +38,7 @@ This code produces three types of results.
 
 Mallows trees can be represented. The position of the node corresponds to its value and its depth. Typical figures look like the following.
 
-![mallows-tree](/figures/mallows-tree.png =250x250)
+<p align="center"><img width="50%" src="figures/mallows-tree.png"/></p>
 
 ### Tree construction
 
