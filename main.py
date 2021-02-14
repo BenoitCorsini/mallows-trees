@@ -16,13 +16,6 @@ TIMES = {
     'final': 3000,
 }
 
-WEBSITE_COLOURS = {
-    'tree': '#00111a',
-    'node': '#b3d5e6',
-    'edge': '#265973',
-    'move': '#ffd500',
-}
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
