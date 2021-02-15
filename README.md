@@ -17,11 +17,6 @@ Once this is done or if the required libraries are already installed, run the fo
 python main.py
 ```
 
-The parameters in `main.py` can easily be changed by adding extra arguments at the end of the command line. All parameters can be found in `main.py` but an example where the code runs on trees of size 20 instead of 10, with a seed of 42 for reprodicibility, is:
-```sh
-python main.py --n 20 --seed 42
-```
-
 ### Organization of the code
 
 `model.py` contains the two classes `MallowsPermutation` and `MallowsTree`. The class `MallowsTree` builds a binary search tree from an instance of the `MallowsPermutation` class.
@@ -59,4 +54,4 @@ The third and last result, obtained when running the function `evolution`, is a 
 
 If you have any questions regarding the code, feel free to contact me at <benoitcorsini@gmail.com>.
 
-More figures can be found [here](https://www.mcgill.ca/bcorsini/cv/math.html).
+More figures can be found [here](https://www.math.mcgill.ca/bcorsini/cv/math.html).
